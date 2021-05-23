@@ -26,6 +26,7 @@ ol {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .list {
@@ -496,17 +497,23 @@ img {
 .clients-section-list-link-logo {
   width: 106px;
   height: 60px;
+  color: #AFB1B8;
 }
+
+
 
 /*.clients-section-list-link:hover,
 .clients-section-list-link:focus {
   background: #2196f3; */
 }
 
-.clients-section-list-link:hover .clients-section-list-link-logo,
-.clients-section-list-link:focus .clients-section-list-link-logo {
-  fill: #ffffff;
+.social-list-icon:hover,
+.social-list-icon:focus {
+  fill: #2196f3;
 }
+
+
+/*end clients section*/
 
 /*footer*/
 
@@ -521,6 +528,8 @@ img {
 .footer-container {
   padding-bottom: 60px;
   padding-top: 60px;
+
+  display: flex;
 }
 
 .logo-link-footer {
@@ -567,6 +576,34 @@ img {
 .adress-list-item:not(:last-child) {
   margin-bottom: 9px;
 }
+
+.social-links-footer-title {
+  font-family: Roboto;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+
+.social-links-footer-container {
+display: flex ;
+flex-direction: column;
+
+}
+
+.social-links-footer-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--contacts-and-discriptions-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
+
 
 /*end footer section*/
 
