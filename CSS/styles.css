@@ -457,6 +457,19 @@ img {
 
 /*end team section*/
 
+/*clients section */
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /*footer*/
 
 .adress {
