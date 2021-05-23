@@ -176,10 +176,18 @@ img {
   color: var(--contacts-and-discriptions-color);
   padding-top: 32px;
   padding-bottom: 32px;
+
+  display: flex;
+  align-items: center;
 }
 
-.header-contacts-tel-link {
-}
+
+
+
+
+
+
+
 
 .header-contacts-tel-link:hover,
 .header-contacts-tel-link:focus {
@@ -188,6 +196,33 @@ img {
 .header-contacts-mail-link:hover,
 .header-contacts-mail-link:focus {
   color: var(--hover-color);
+}
+
+
+.header-contacts-icon {
+  display: inline; 
+  
+  
+  margin-right: 10px;
+}
+
+
+.header-contacts-icon-mail {
+  
+  color:#757575;
+  width: 16px;
+  height: 12px;
+
+  
+  
+}
+
+
+.header-contacts-icon-smartphone {
+  color:#757575;
+  width: 10px;
+  height: 16px;
+  
 }
 
 /*header end*/
@@ -577,6 +612,18 @@ img {
   margin-bottom: 9px;
 }
 
+.social-links-footer-container {
+display: flex ;
+flex-direction: column;
+justify-content: space-between;
+
+margin-left: 70px;
+padding-top: 12px;
+width: 206px;
+height: 80px;
+
+}
+
 .social-links-footer-title {
   font-family: Roboto;
 font-weight: 700;
@@ -587,32 +634,46 @@ color: #FFFFFF;
 text-transform: uppercase;
 }
 
-.social-links-footer-container {
-display: flex ;
-flex-direction: column;
+.social-links-footer-list-item-link {
+display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
 
+}
+
+
+.social-links-footer-list-item-icon {
+width: 20px;
+  height: 20px;8
+  color: #FFFFFF;
+
+}
+
+
+.social-links-footer-list-item-link:hover,
+.social-links-footer-list-item-link:focus {
+  background: #2196f3;
+}
+
+.social-links-footer-list-item-link:hover .social-links-footer-list-item-icon,
+.social-links-footer-list-item-link:focus .social-links-footer-list-item-icon {
+  fill: #ffffff;
 }
 
 .social-links-footer-list {
-  display: flex;
-  width: 206px;
-  height: 44px;
-  
+display: flex;
+justify-content: space-between;
+
 }
 
-.social-links-footer-list-item {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  justify-content: center;
-  align-items: center;
-}
 
-.social-links-footer-list-item-icon {
-  width: 20px;
-  height: 20px;
-  color: #FFFFFF;
-}
+
+
+
 
 
 
@@ -652,8 +713,10 @@ flex-direction: column;
 
   width: 270px;
   border: 1px;
-  border-style: solid;
+  border-style: thin;
   border-radius: 4px;
+
+  box-shadow: 5px 5px 10px 1px #E5E5E5;
 }
 
 .portfolio-photofilter-list-item:nth-child(3n) {
