@@ -471,6 +471,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .clients-section-list {
@@ -478,9 +479,15 @@ img {
   justify-content: space-between;
 }
 
+.clients-section-list-link {
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
 .clients-section-list-item {
   display: flex;
-
+  justify-content: center;
   align-items: center;
 
   width: 170px;
@@ -491,9 +498,9 @@ img {
   height: 60px;
 }
 
-.clients-section-list-link:hover,
+/*.clients-section-list-link:hover,
 .clients-section-list-link:focus {
-  background: #2196f3;
+  background: #2196f3; */
 }
 
 .clients-section-list-link:hover .clients-section-list-link-logo,
