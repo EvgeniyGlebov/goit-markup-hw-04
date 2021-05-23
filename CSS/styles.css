@@ -584,6 +584,7 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 color: #FFFFFF;
+text-transform: uppercase;
 }
 
 .social-links-footer-container {
@@ -593,16 +594,25 @@ flex-direction: column;
 }
 
 .social-links-footer-list {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.18;
-  letter-spacing: 0.03em;
-  color: var(--contacts-and-discriptions-color);
   display: flex;
-  align-items: center;
-  justify-content: center;
+  width: 206px;
+  height: 44px;
+  
 }
+
+.social-links-footer-list-item {
+  width: 44px;
+  height: 44px;
 }
+
+.social-links-footer-list-item-icon {
+  width: 20px;
+  height: 20px;
+  color: #FFFFFF;
+}
+
+
+
 
 
 /*end footer section*/
