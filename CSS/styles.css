@@ -601,8 +601,11 @@ flex-direction: column;
 }
 
 .social-links-footer-list-item {
+  display: flex;
   width: 44px;
   height: 44px;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-links-footer-list-item-icon {
