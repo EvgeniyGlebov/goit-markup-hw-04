@@ -459,6 +459,9 @@ img {
 
 /*clients section */
 
+.clients-container {
+}
+
 .clients-title {
   font-weight: 700;
   font-size: 36px;
@@ -468,6 +471,34 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.clients-section-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients-section-list-item {
+  display: flex;
+
+  align-items: center;
+
+  width: 170px;
+  height: 92px;
+}
+.clients-section-list-link-logo {
+  width: 106px;
+  height: 60px;
+}
+
+.clients-section-list-link:hover,
+.clients-section-list-link:focus {
+  background: #2196f3;
+}
+
+.clients-section-list-link:hover .clients-section-list-link-logo,
+.clients-section-list-link:focus .clients-section-list-link-logo {
+  fill: #ffffff;
 }
 
 /*footer*/
