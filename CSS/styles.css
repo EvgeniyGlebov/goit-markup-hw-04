@@ -534,8 +534,11 @@ img {
 }
 
 .clients-section-list-link:hover,
-.clients-section-list-link:focus {
+.clients-section-list-link:focus,
+.clients-section-list-link:hover .clients-section-list-link-logo,
+.clients-section-list-link:focus .clients-section-list-link-logo {
   border-color: #2196f3;
+  fill: #2196f3;
 }
 
 .clients-section-list-link-logo:hover,
