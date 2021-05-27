@@ -88,7 +88,7 @@ img {
 
 .social-list {
   display: flex;
-  padding: 16px 32px 0px 32px;
+  /* padding: 16px 32px 0px 32px; */
   justify-content: space-between;
 }
 
@@ -172,8 +172,6 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--contacts-and-discriptions-color);
-  padding-top: 32px;
-  padding-bottom: 32px;
 
   display: flex;
   align-items: center;
@@ -202,7 +200,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #757575;
+  fill: currentColor;
   width: 16px;
   height: 12px;
   margin: 34px 10px 34px;
@@ -212,6 +210,7 @@ img {
   fill: #757575;
   width: 10px;
   height: 16px;
+  fill: currentColor;
 
   margin: 32px 10px 32px 0px;
 }
@@ -232,6 +231,7 @@ img {
     ),
     url(../images/hero/Img.jpg);
   background-size: cover;
+  max-width: 1600px;
 }
 
 .hero-title {
@@ -424,8 +424,8 @@ img {
   /* margin-bottom: 60px; */
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-right: 20px;
-  padding-left: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .photofilter-discription {
@@ -451,6 +451,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 16px;
 }
 
 .social-list-icon {
@@ -481,7 +482,7 @@ img {
 
 .social-list {
   display: flex;
-  padding: 16px 32px 0px 32px;
+  /* padding: 16px 32px 0px 32px; */
   justify-content: space-between;
 }
 
@@ -506,7 +507,9 @@ img {
 
 .clients-section-list {
   display: flex;
-  justify-content: space-between;
+}
+.clients-section-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .clients-section-list-link {
@@ -563,6 +566,8 @@ img {
   padding-top: 60px;
 
   display: flex;
+
+  align-items: baseline;
 }
 
 .logo-link-footer {
@@ -611,14 +616,7 @@ img {
 }
 
 .social-links-footer-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-
   margin-left: 70px;
-  padding-top: 12px;
-  width: 206px;
-  height: 80px;
 }
 
 .social-links-footer-title {
@@ -629,6 +627,8 @@ img {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-transform: uppercase;
+
+  margin-bottom: 20px;
 }
 
 .social-links-footer-list-item-link {
@@ -645,6 +645,10 @@ img {
   width: 20px;
   height: 20px;
   fill: #ffffff;
+}
+
+.social-links-footer-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-links-footer-list-item-link:hover,
