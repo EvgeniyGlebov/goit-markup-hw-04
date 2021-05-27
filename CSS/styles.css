@@ -202,14 +202,14 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #757575;
+  fill: #757575;
   width: 16px;
   height: 12px;
   margin: 34px 10px 34px;
 }
 
 .header-contacts-icon-smartphone {
-  color: #757575;
+  fill: #757575;
   width: 10px;
   height: 16px;
 
